@@ -3,9 +3,9 @@
 %%% -- {
 %%% --     "metastyle": "0.0.1",
 %%% --     "meta": {
-%%% --          "uuid": "uuid",
-%%% --          "title": "Titel des Worksheets",
-%%% --          "language": "en",
+%%% --          "uuid": "b1a5be9b-e0e6-4b9e-bf1f-35bf87cf8d99",
+%%% --          "title": "Geschichte der Programmiersprachen",
+%%% --          "language": "de",
 %%% --          "authors": [
 %%% --              {
 %%% --                  "name": "Stephan Bökelmann",
@@ -14,37 +14,21 @@
 %%% --              }
 %%% --          ],
 %%% --          "depends on": {
-%%% --              "worksheet": ["uuid of another worksheet"]
+%%% --              "worksheet": ["0cccc056-5336-4876-a562-73dd3edbb618"]
 %%% --          },
 %%% --          "recommends": [
-%%% --              {
-%%% --                  "type": "website",
-%%% --                  "title": "NANDland",
-%%% --                  "url": "www.nandland.com",
-%%% --                  "note": "A website explaining VHDL"
-%%% --              },
-%%% --              {
-%%% --                  "type": "book",
-%%% --                  "title": "VHDL-Synthese",
-%%% --                  "author": "Reichardt, J. and Schwarz, B.",
-%%% --                  "publisher": "de Gruyter",
-%%% --                  "address": "Oldenburg",
-%%% --                  "note": "A great book on VHDL",
-%%% --                  "url": "https://www.amazon.de/VHDL-Synthese-Entwurf-digitaler-Schaltungen-Systeme/dp/3486581929",
-%%% --                  "ISBN": "978-3486581928"
-%%% --              }
 %%% --          ],
 %%% --          },
 %%% --          "tags": {
-%%% --              "primary": ["VHSIC", "IEEE Std 1076-1987"],
-%%% --              "secondary": ["verilog"],
-%%% --              "category": ["digital-electronics"],
+%%% --              "primary": ["Geschichte", "Programmiersprache", "Betriebssystem"],
+%%% --              "secondary": ["COBOL", "PL/I", "UNIX"],
+%%% --              "category": ["Geschichte"],
 %%% --         },
 %%% --     }
 %%% -- }
 
 
-\setdoctitle{Der Titel meines Dokuments}
+\setdoctitle{Geschichte der Programmiersprachen}
 \setdocauthor{Stephan Bökelmann}
 \setdocemail{sboekelmann@ep1.rub.de}
 \setdocinstitute{AG Physik der Hadronen und Kerne}
@@ -52,20 +36,35 @@
 
 \begin{document}
 
-Jedes Challenge-Blatt beginnt mit einer kurzen Einleitung, die einen Kontext für den jeweiligen Zettel setzt. 
+Damit wir uns genaustens erklären können, warum einige Betriebssystem- oder Programmiersprachenfeatures so funktionieren wie sie funktionieren, lohnt sich der Blick in die geschichtliche Entwicklung. 
+Beginnt man erst einmal sich mit der historischen Entwicklung von Rechenmaschinen und den unterschiedlichen Arten diese zu Programmieren auseinanderzusetzen, stellt man fest, wie lange sich manche der Konzepte bereits halten. 
+Auch moderne Programmiersprachen und Betriebssysteme bauen noch immer auf den selben Ideen auf und fügen lediglich komplexere Programmteile hinzu.
+Die Möglichkeit Entwicklungen zeitlich einordnen zu können, hilft uns somit auch dabei, die richtigen Quellen zu finden, wenn wir genauere Informationen über die Verwendungsweise oder den Nutzen bestimmter Programme suchen.
 
 \section*{Aufgaben}
 \begin{aufgabe}
-    Löse die Gleichung $x^2 - 5x + 6 = 0$.
+    Beschreiben Sie den Zusammenhang der Entwicklung der Programmiersprache C und des UNIX Betriebssystems.
+    Welche Rolle spielt dabei der Begriff \textit{Bootstrapping}?
 \end{aufgabe}
 
-\begin{aufgabe}[Für Fortgeschrittene]
-    Beweise den Satz des Pythagoras.
+\begin{aufgabe}
+    Welche Rolle spielt der \textit{Kernel} eines Betriebssystems und was haben \textit{system calls} damit zu tun?
+\end{aufgabe}
+
+\begin{aufgabe}
+    Wieso lässt sich ein Betriebssystem für eine Hardwareplattform nicht in Python oder JavaScript schreiben?
+\end{aufgabe}
+
+\begin{aufgabe}
+    Was bedeutet der Begriff einer \textit{Distribution} im Kontext der Betriebssysteme und wie unterscheiden sich unterschiedliche Linux-\textit{Distributionen}?
 \end{aufgabe}
 
 \section*{Anmerkungen}
 \begin{enumerate}
-    \item Link zu einem YouTube-Video: \url{https://www.youtube.com}
+    \item Erklärung des Linux-Boot-Prozesses: \url{https://www.youtube.com/watch?v=XpFsMB6FoOs}
+    \item Richard Stallman über den Gedanken hinter GNU: \url{https://www.youtube.com/watch?v=fkkDvKGcNSo}
+    \item Linux Torvalds über die Herkunft des Linux-Kernels in 2006: \url{https://www.youtube.com/watch?v=WVTWCPoUt8w}
+    \item Operating Systems - Design and Implementation von Andrew S. Tanenbaum: \href{https://www.amazon.de/Operating-Systems-Implementation-Prentice-Software/dp/0131429388/ref=sr_1_5?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=16U05ITYOD3T0&dib=eyJ2IjoiMSJ9.zEJWJZxks-8Bv2rfn7oxBNyDxTQG9MEN_jtz2LyrZ_J1VBsopfBd0__hGtFXy7PfL0Nu-Q1BpEJjRJiDZ8UBAw.-4bon1aukJZLWOPS_Hp8s59FmIKHRqAMwPH752Hx9V8&dib_tag=se&keywords=minix+buch&qid=1712681247&sprefix=minix+buch%2Caps%2C133&sr=8-5}{Amazon.de-Link}
 \end{enumerate}
 
 \end{document}
